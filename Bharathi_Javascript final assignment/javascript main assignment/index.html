@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head><text>Form Validation</text>
+        <link rel="stylesheet" href="styles/style.css">
+    <script type="text/javascript" src="script/script.js"></script>
+    </head>
+    
+    <body>
+        <div id=heading>
+            <h1>Personal Information</h1><br>
+        </p>
+        <div>
+            <div class="left">
+                <span>Name as per ID proof <i>*</i></span>
+                <label id="first">Please enter a valid name</label><br>
+                <input id="one" type="text"><br><br>
+                <span>Email<i>*</i></span>
+                <label id="second">Please enter a valid Email</label><br>
+                <input id="two" type="email"><br><br>
+                <span>Current Address<i>*</i></span>
+                <label id="third">Please enter a valid Address</label><br>
+                <input id="three" type="text" placeholder="Address Line 1"><br><br>
+                <label id="third1">City is required</label><br>
+                <input type="text" id="three1" placeholder="City"> 
+                <select>
+                    <option value="Tamil Nadu">Tamil Nadu</option>
+                    <option value="Kerala">Kerala</option>
+                    <option value="Karnataka">Karnataka</option>
+                    <option value="Delhi">Delhi</option>
+                </select><br><br>
+                <span>Permanent Address<i>*</i></span>
+                <b>..................</b><button onclick="Address()"></button>
+                Same as Current Address
+                <label id="fourth">Please enter a valid Address</label><br>
+                <input id="four" type="text"  placeholder="Address Line 1"><br><br>
+                <label id="city">City is required</label><br>
+                <input type="text" id="cityname" placeholder="City"> 
+                <select>
+                    <option value="Tamil Nadu">Tamil Nadu</option>
+                    <option value="Kerala">Kerala</option>
+                    <option value="Karnataka">Karnataka</option>
+                    <option value="Delhi">Delhi</option>
+                </select><br><br>
+             </div>
+             <div class="right">
+                <span>Fathers Name<i>*</i></span>
+                <label id="rfirst">Please enter a valid name</label><br>
+                <input id="rone" type="text"><br><br>
+                <span>Date of Birth <i>*</i></span>  <label id="rsecond">Enter Valid Date</label><b>...........................</b> <span>Mobile No <i>*</i></span> <label id="rsecondsecond">Enter Valid Number</label><br>
+               <input id="rtwo" type="text" placeholder="dd-mm-yyyy">  <input id="rtwotwo" type="text"> <br> <br>
+               <label id="rthird">Please enter a valid Address</label>
+               <br>
+                <input type="text" id="rthree"placeholder="Address Line 2"><br><br>
+                <label id="rfourth">Please enter a valid Pincode</label><br>
+               <input type="text"  id="rfour" placeholder="Enter the Pincode"><br><br>
+               <label id="rfifth">Please enter a valid address</label>
+               <br>
+                <input type="text" id="rfive"placeholder="Address Line 2"><br><br>
+                <label id="rsixth">Please enter a valid Zincode</label><br>
+               <input type="text"  id="rsix" placeholder="Enter the Zip Code">
+               <br>
+               <br>
+               <b>.</b>
+             </div>
+    
+        </div>
+        <div class="bottom">
+            <br><br>
+            <p>Upload Profile Photo<span>*</span>(JPG/PNG format only) <br>
+             <br><br>
+            <button id="final">UPLOAD PHOTO</button>
+        </p>
+            
+    <div class="footer">
+        <br>
+        <button onclick="Validation()">NEXT</button>
+    </div>
+    </body>
+</html>
